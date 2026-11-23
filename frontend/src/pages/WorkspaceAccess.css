@@ -1,0 +1,8 @@
+.signin-modes-two{grid-template-columns:repeat(2,1fr)}
+.register-role-choices-two{grid-template-columns:repeat(2,1fr)}
+.register-fields>.field-wide{grid-column:1/-1}
+.sales-header-actions{display:flex;align-items:center;gap:20px}
+.sales-header-actions>a,.sales-header-actions>button{display:flex;align-items:center;gap:6px;text-decoration:none;color:#71859b;font:600 10px 'DM Sans';border:0;background:transparent;cursor:pointer}
+.auth-state{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:28px;text-align:center;background:#f3f6fa;color:#263b52;font-family:'DM Sans',sans-serif}
+.auth-state h2{margin:0;color:#193d65;font:800 24px Manrope}.auth-state p{max-width:480px;color:#71859b;font-size:13px}.auth-state button,.auth-state a{border:0;border-radius:8px;padding:10px 16px;background:#245f98;color:#fff;font:700 12px 'DM Sans';text-decoration:none;cursor:pointer}
+@media(max-width:600px){.register-role-choices-two{grid-template-columns:1fr}.sales-header-actions{gap:10px}.sales-header-actions>a,.sales-header-actions>button{font-size:0}.sales-header-actions svg{font-size:15px}}
